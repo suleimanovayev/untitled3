@@ -4,8 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Animal animal = new Animal();
         Human human = new Human();
-        System.out.println(animal.hashCode());
-        System.out.println(human.hashCode());
+
+        System.err.printf(animal.toString());
+        System.err.printf(human.toString());
+        System.err.printf(human.toString());
     }
 
 }
